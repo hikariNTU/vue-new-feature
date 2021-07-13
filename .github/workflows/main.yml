@@ -3,7 +3,7 @@ on:
   # Trigger on main
   push:
     branches:
-      - main
+      - master
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
