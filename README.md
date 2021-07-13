@@ -1,3 +1,7 @@
+[![Build and Deploy](https://github.com/hikariNTU/vue-new-feature/actions/workflows/main.yml/badge.svg)](https://github.com/hikariNTU/vue-new-feature/actions/workflows/main.yml)
+
+[Static Built Page](https://hikarintu.github.io/vue-new-feature/)
+
 # Vue New Feature Demo
 
 Vue New Feature Demo web project playground using `Vite` + `Vue3` + `WindiCSS`(Tailwind).
