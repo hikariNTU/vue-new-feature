@@ -10,7 +10,7 @@ Vue New Feature Demo web project playground using `Vite` + `Vue3` + `WindiCSS`(T
 
 ### Web UI dev
 
-- `npm run dev` open Vite.js develop server
+- `npm run dev` open Vite.js develop server in second
 
 ![image](https://user-images.githubusercontent.com/79894563/124779755-9d1c2580-df74-11eb-83e6-ede60def6f37.png)
 
