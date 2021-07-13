@@ -35,15 +35,15 @@
 </template>
 
 <script setup>
-import { ref, unref } from "vue"
+import { ref, unref } from "vue";
 
-const count = ref(0)
+const count = ref(0);
 const addCount = () => {
-  count.value = unref(count) + 1
-}
+  count.value = unref(count) + 1;
+};
 const reset = () => {
-  count.value = 0
-}
+  count.value = 0;
+};
 </script>
 
 <style>

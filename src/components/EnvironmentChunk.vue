@@ -15,5 +15,5 @@ defineProps({
     default: "Section",
     type: String,
   },
-})
+});
 </script>

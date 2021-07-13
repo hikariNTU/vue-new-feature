@@ -58,9 +58,9 @@ main(
 </template>
 
 <script setup>
-import Counter from "/@/components/Counter.vue"
-import FieldCard from "/@/components/FieldCard.vue"
-import EnvironmentChunk from "/@/components/EnvironmentChunk.vue"
-import ToolTag from "/@/components/ToolTag.vue"
-import PlaceHolder from "/@/components/PlaceHolder.vue"
+import Counter from "/@/components/Counter.vue";
+import FieldCard from "/@/components/FieldCard.vue";
+import EnvironmentChunk from "/@/components/EnvironmentChunk.vue";
+import ToolTag from "/@/components/ToolTag.vue";
+import PlaceHolder from "/@/components/PlaceHolder.vue";
 </script>

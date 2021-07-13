@@ -17,5 +17,7 @@
   ],
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "volar.preferredAttrNameCase": "kebab",
+  "volar.preferredTagNameCase": "pascal"
 }
