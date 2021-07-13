@@ -1,0 +1,6 @@
+{
+  "appId": "com.example.capacitor.playground.ios",
+  "appName": "capacitor-ios-playground",
+  "webDir": "dist",
+  "bundledWebRuntime": true
+}

@@ -1,0 +1,38 @@
+{
+  "name": "vue-new-feature",
+  "version": "0.1.0",
+  "description": "An project using Vite Vue3 and Tailwind CSS for vue-new-feature demo",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:gh": "vite build --base=/vue-new-feature/",
+    "serve": "vite preview",
+    "windi-report": "npx windicss-analysis"
+  },
+  "dependencies": {
+    "vue": "^3.1.4"
+  },
+  "devDependencies": {
+    "@prettier/plugin-pug": "^1.16.0",
+    "@vitejs/plugin-vue": "^1.2.4",
+    "@vue/compiler-sfc": "^3.1.4",
+    "prettier": "2.3.2",
+    "pug": "^3.0.2",
+    "vite": "^2.4.1",
+    "vite-plugin-windicss": "^1.2.4",
+    "vue-tsc": "^0.0.24",
+    "windicss": "^3.1.4"
+  },
+  "author": "hikariNTU",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hikariNTU/vue-new-feature.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "Vite",
+    "vue3",
+    "WindiCss"
+  ]
+}

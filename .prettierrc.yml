@@ -1,0 +1,8 @@
+# Project Setting
+semi: false
+tabWidth: 2
+
+# Make class separated from tag starting line
+# @see #157 https://github.com/windicss/windicss-intellisense/issues/157
+pugClassNotation: attribute
+pugWrapAttributesPattern: class

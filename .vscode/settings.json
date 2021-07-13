@@ -1,0 +1,21 @@
+{
+  "vetur.completion.tagCasing": "initial",
+  "vetur.validation.templateProps": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.words": [
+    "Hikari's",
+    "noopener",
+    "semibold",
+    "vite",
+    "vitejs",
+    "windi",
+    "windicss"
+  ],
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
