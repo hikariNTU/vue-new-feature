@@ -42,7 +42,7 @@ main(
     FieldCard(title="Start form here")
       PlaceHolder
   div(
-    aria-hidden,
+    aria-hidden="true",
     class="flex-grow"
   )
   footer(

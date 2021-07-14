@@ -1,6 +1,6 @@
 <template lang="pug">
 div(
-  aria-hidden,
+  aria-hidden="true",
   class="flex flex-grow justify-center items-center select-none"
 )
   div(
