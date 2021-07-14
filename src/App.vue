@@ -3,13 +3,14 @@ main(
   class="xl:(container mx-auto) m-0 px-5 lg:px-10 py-10 flex flex-col items-center min-h-screen"
 )
   h1(
-    class="text-gray-700 text-4xl text-center font-black"
+    class="text-gray-700 text-4xl text-center font-black",
+    class="font-family-handwriting"
   ) Vue New Feature
   hr(
-    class="border-none h-4 bg-yellow-300 min-w-72 mt-2 rounded-lg flex-shrink-0"
+    class="border-none h-3 bg-yellow-300 min-w-72 rounded-lg flex-shrink-0"
   )
   span(
-    class="text-gray-500"
+    class="text-gray-400 font-bold"
   ) Next-gen vue experience
 
   div(
@@ -64,3 +65,11 @@ import EnvironmentChunk from "/@/components/EnvironmentChunk.vue";
 import ToolTag from "/@/components/ToolTag.vue";
 import PlaceHolder from "/@/components/PlaceHolder.vue";
 </script>
+
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap");
+
+.font-family-handwriting {
+  font-family: "Nothing You Could Do", cursive;
+}
+</style>

@@ -5,7 +5,7 @@ article(
   class="hover:shadow-xl transform hover:translate-y-[-0.2rem] transition"
 )
   h2(
-    class="text-center mx-2 my-4 text-[1.5rem] text-cool-gray-600 font-black"
+    class="font-family-handwriting text-center mx-2 mt-4 mb-2 text-[1.5rem] text-cool-gray-600 font-black"
   )
     | {{ title }}
   hr(
@@ -23,5 +23,5 @@ export default {
       type: String,
     },
   },
-}
+};
 </script>
