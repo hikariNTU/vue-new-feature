@@ -13,7 +13,7 @@ const routes = [
 
 const createRouterInstance = () => {
   const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHistory(import.meta.env.BASE_URL),
     routes,
   });
   return router;
