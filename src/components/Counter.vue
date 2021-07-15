@@ -39,8 +39,7 @@
         @click="reset"
         class="btn-count"
         :class="{
-          'border-yellow-300': !noReset,
-          'text-yellow-600': !noReset,
+          'btn-count--reset': !noReset,
         }"
         :disabled="noReset"
       >
@@ -63,7 +62,7 @@ const reset = () => {
 const noReset = computed(() => unref(count) === 0);
 </script>
 
-<style>
+<style lang="scss">
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 .font-family-digit {
   font-family: "Press Start 2P", cursive;
@@ -78,5 +77,8 @@ const noReset = computed(() => unref(count) === 0);
   @apply not-disabled:(hover:bg-light-400 shadow-md);
   @apply disabled:(cursor-default bg-light-900);
   @apply active:(bg-light-800 shadow-sm);
+  &.btn-count--reset {
+    @apply border-yellow-300 text-yellow-600;
+  }
 }
 </style>
