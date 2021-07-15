@@ -11,7 +11,8 @@
     "windi-report": "npx windicss-analysis"
   },
   "dependencies": {
-    "vue": "^3.1.4"
+    "vue": "^3.1.4",
+    "vue-router": "^4.0.10"
   },
   "devDependencies": {
     "@prettier/plugin-pug": "^1.16.0",
