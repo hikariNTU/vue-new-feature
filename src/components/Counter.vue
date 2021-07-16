@@ -50,7 +50,7 @@
 </template>
 
 <script setup>
-import { computed, ref, unref } from "vue";
+import { computed, onMounted, ref, unref, watch } from "vue";
 
 const count = ref(0);
 const addCount = () => {
@@ -60,6 +60,12 @@ const reset = () => {
   count.value = 0;
 };
 const noReset = computed(() => unref(count) === 0);
+
+onMounted(() => {
+  globalThis.myCounter = count;
+  globalThis.watch = watch;
+  globalThis.computed = computed;
+});
 </script>
 
 <style lang="scss">
