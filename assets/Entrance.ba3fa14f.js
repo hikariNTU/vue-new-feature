@@ -1,0 +1,19 @@
+import{_ as p,a as m}from"./PlaceHolder.f00e6f28.js";import{r as v,c as _,u as d,o as x,w as y,a as l,b as i,d as t,t as b,e as g,f as e,g as a,h as k}from"./index.64c19445.js";const $={class:"m-8 flex flex-col flex-grow font-family-digit",role:"application"},S=t("div",{class:"text-sm text-warm-gray-600 text-center"},[t("code",{class:`
+          bg-light-700
+          pt-2
+          pb-1
+          px-4
+          inline-flex
+          mb-1
+          font-family-digit
+          animate-bounce
+        `}," Counter.vue "),t("p",null,"Setup script with vue3")],-1),C={class:`
+        flex flex-grow
+        justify-center
+        items-center
+        text-7xl
+        font-black
+        my-4
+        mx-2
+        text-gray-600
+      `},z={class:"flex gap-4 mt-4"},Y={setup(n){const r=v(0),s=()=>{r.value=d(r)+1},c=()=>{r.value=0},u=_(()=>d(r)===0);return x(()=>{globalThis.myCounter=r,globalThis.watch=y,globalThis.computed=_}),(h,at)=>(l(),i("div",$,[S,t("div",C,b(r.value),1),t("div",z,[t("button",{onClick:s,class:"btn-count"},"ADD"),t("button",{onClick:c,class:["btn-count",{"btn-count--reset":!d(u)}],disabled:d(u)}," RESET ",10,["disabled"])])]))}},P={class:"flex flex-col bg-white min-h-[24rem] rounded-xl shadow-md border border-true-gray-200 hover:shadow-xl transform hover:translate-y-[-0.2rem] transition"},X={class:"font-family-handwriting text-center mx-2 mt-4 mb-2 text-[1.5rem] text-cool-gray-600 font-black"},N=t("hr",{class:"border-none bg-blue-gray-200 h-1 mx-4 rounded-full"},null,-1);function Z(n,r,s,c,u,h){return l(),i("article",P,[t("h2",X,b(s.title),1),N,g(n.$slots,"default")])}const w={name:"FieldCard",props:{title:{default:"Play Ground",type:String}}};w.render=Z;const T={class:"m-4"},V={class:"m-2 mt-0 font-semibold text-gray-700 text-xl"},f={props:{title:{default:"Section",type:String}},setup(n){return(r,s)=>(l(),i("section",T,[t("h2",V,b(n.title),1),t("ul",null,[g(r.$slots,"default")])]))}},R={class:"tool-tag"},D={class:"ml-4"};function F(n,r){return l(),i("li",R,[t("span",D,[g(n.$slots,"default")])])}const o={};o.render=F;const M=t("h1",{class:"text-gray-700 text-4xl text-center font-black font-family-handwriting"},"Vue New Feature",-1),E=t("hr",{class:"border-none h-3 bg-yellow-300 min-w-72 rounded-lg flex-shrink-0"},null,-1),L=t("span",{class:"text-gray-400 font-bold"},"Next-gen vue experience",-1),A={class:"w-[100%] lg:m-12 m-4 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 md:gap-6 lg:gap-8"},B=a("Reactive vue"),I=a("Composition API"),W=a("Setup Lifecycle"),j=a("Fragments"),G=a("Volar"),J=a("WindiCSS"),q=a("Prettier"),H=t("s",null,"eslint",-1),K=a("Vite"),O=a("Vue3"),Q=a("WindiCSS"),U=a("Pug(Jade)"),tt=a("SCSS"),et=a("setup script"),ot=a("Presentation Page"),st={setup(n){return(r,s)=>{const c=k("RouterLink");return l(),i(p,null,{default:e(()=>[M,E,L,t("div",A,[t(w,{title:"Introduce"},{default:e(()=>[t(f,{title:"New Feature"},{default:e(()=>[t(o,null,{default:e(()=>[B]),_:1}),t(o,null,{default:e(()=>[I]),_:1}),t(o,null,{default:e(()=>[W]),_:1}),t(o,null,{default:e(()=>[j]),_:1})]),_:1}),t(f,{title:"VS Code Extension"},{default:e(()=>[t(o,null,{default:e(()=>[G]),_:1}),t(o,null,{default:e(()=>[J]),_:1}),t(o,null,{default:e(()=>[q]),_:1}),t(o,null,{default:e(()=>[H]),_:1})]),_:1}),t(f,{title:"Structure"},{default:e(()=>[t(o,null,{default:e(()=>[K]),_:1}),t(o,null,{default:e(()=>[O]),_:1}),t(o,null,{default:e(()=>[Q]),_:1}),t(o,null,{default:e(()=>[U]),_:1}),t(o,null,{default:e(()=>[tt]),_:1}),t(o,null,{default:e(()=>[et]),_:1})]),_:1})]),_:1}),t(w,{title:"Counter"},{default:e(()=>[t(Y)]),_:1}),t(w,{title:"Start form here"},{default:e(()=>[t(m),t(c,{class:"block text-xl text-center m-2 p-2 border rounded-xl text-dark-100 font-thin",to:"/presentation",title:"Presentation demo for new features"},{default:e(()=>[ot]),_:1})]),_:1})])]),_:1})}}};export{st as default};
